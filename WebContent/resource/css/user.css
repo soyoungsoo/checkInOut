@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+#page {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.Header {
+	margin-bottom: 140px;
+}
+
+.Header h2 {
+	color: #c0c0c0;
+}
+
+.Header h1 {
+	margin: 0;
+}
+
+.lastText {
+	margin-bottom: 60px;
+}
+
+#dimmed {
+	background: #000;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.loginForm, .updateForm {
+	margin-top: 100px;
+	width: 100%;
+	height: 100%;
+}
+
+.loginForm a, .updateForm a {
+	display: block;
+}
+.loginArea .button, .updateArea .confirm  {
+	position: relative;
+	top: 34px;
+	left: 30%;
+	width: 100px;
+	color: black;
+	text-align: center;
+}
+
+.loginForm .button, .updateArea .confirm {		
+	background-color: white;
+	position: relative;
+	height: 40px;
+	width: 100px;
+	line-height: 2.5;
+}
+.loginForm .button:hover,.updateArea .confirm:hover {
+	background-color: gray;
+	color: white;
+	transition-duration: 0.5s;
+}
+
+.loginForm ul li:nth-child(1) {
+	left: 14%;
+	position: relative;
+}
+
+.loginForm ul li:nth-child(2) {
+	left: 57px;
+	position: relative;
+}
+
+.UserCheck .button {
+	background-color: #fff;
+	border-color: rgba(255, 255, 255, 0);
+	border-radius: 0.35em;
+	color: #f08c89;
+	font-size: 1.25em;
+	cursor: pointer;
+	padding: 0.8em 2em 0.8em 2em;
+	outline: 0;
+	transition-duration: 0.5s;
+}
+
+.UserCheck .button:hover {
+	border-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.15);
+	color: #fff;
+	transition-duration: 0.5s;
+}
+
+.infoList li{
+	margin-left: 20px;
+}
+
+.target, .target2 {
+	margin-bottom: 10px;
+}
+.logout {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.logout:hover {
+	color: #f08c89;
+	transition-duration: 0.5s;
+}
+
+.loginId {
+	padding-left: 54px;
+}
+
+.updateBtnArea1, .updateBtnArea2 {
+	display: inline-block;
+	position: absolute;
+}
+
+.updateBtnArea1 {
+	left: 81px;
+}
+
+.updateBtnArea2 {
+	left: 191px;
+}
+
+.checkArea {
+	margin-bottom: 50px;
+}
+
+.cancle {
+	height: 40px;
+	width: 100px;
+	line-height: 2.5;
+	border-radius: 0.35em;
+	background-color: white;
+	border: solid 1px #dee0e3;
+	font-weight: 600;
+	color: #000;
+	text-align: center;
+	position: absolute;
+	top: 33px;
+	left: 40px;
+}
+
+.cancle:hover{
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  border: 1px solid #ff7f00;
+  color: red;
+}
+#loginId {
+	margin-bottom: 30px;
+}
+.loginForm .button {		
+	background-color: white;
+	position: relative;
+	height: 40px;
+	width: 100px;
+	line-height: 2.5;
+}
+.loginForm .button:hover {
+	background-color: gray;
+	color: white;
+	transition-duration: 1s;
+}
+
+input{
+	background: no-repeat;
+	height: 30px;
+	width: 200px;
+	border: 1px solid white;
+	color:white;
+	font-size: 1em;
+	padding-left: 10px;
+}
+input::placeholder {
+  color: white;
+  font-style: italic;
+}
+.infoList {
+	padding-left: 70px;
+}
+.loginArea {
+	width: 28em;
+	height: 290px;
+	display: inline-block;
+	position: absolute;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.updateArea {
+	width: 28em;
+	height: 290px;
+	display: none;
+	position: absolute;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.loginArea .button, .updateArea .confirm  {
+	position: relative;
+	top: 34px;
+	left: 30%;
+	width: 100px;
+	color: black;
+	border-radius: 0.35em;
+	text-align: center;
+}
+.loginForm .button:hover,.updateArea .confirm:hover {
+	background-color: gray;
+	color: white;
+	transition-duration: 0.5s;
+}
+.infoList input{
+	margin-left: 42px;
+}
+.target, .target2 {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+td{
+  cursor: default;
+}
+#header{
+  border: 1px solid gray;
+  height: 50px;
+}
+#wrap{
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+#grid{
+  text-align: center;
+  top: 40px;
+    margin-bottom: 180px;
+}
+#left_content{
+  width:250px;
+  border-right: 1px solid gray;
+  float:left;
+  position: absolute;
+  background: #222629;
+  top: 0;
+  bottom: 0;
+}
+#contents{
+  width: calc( 100% - 350px );
+  min-width: 1000px;
+  float:left;
+  top: 50px;
+  position: relative;
+  left: 300px;
+}
+#header span{
+  position: relative;
+  left: 1500px;
+  top: 7px;
+  font-size: 1.5em;
+}
+.left_header{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.pageTitle h1{
+  font-weight: 600;
+}
+.tabs{
+  top: 265px;
+  position: absolute;
+  width: 100%;
+}
+.menu .manage{
+  margin: 0;
+}
+.menu a{
+  height: 100px;
+  line-height: 5em;
+  color: white;
+  font-size: 1.2em;
+}
+a{
+  text-align: center;
+}
+.button{
+  border-radius: 0.35em;
+  color:#fff;
+  padding: 0.75em 2.5em 0.75em 2.5em;
+  border: 0;
+}
+.left_header h2{
+  text-align: center;
+  display: inline-block;
+}
+.left_header p{
+  display: inline-block;
+}
+.left_header a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav > li > a:hover{
+  color: black;
+  transition-duration: 0.5s;
+}
+.controllArea{
+  position: relative;
+  top:65px;
+}
+.confirm{
+  background-color: #8ebebc;
+  //background-image:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.15));
+}
+.confirm:hover{
+  opacity: 0.8;
+  color: white;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.cancle, .seach{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 1px #dee0e3;
+  font-weight: 600;
+  color:#000;
+}
+.cancle:hover, .seach:hover{
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  border: 1px solid #ff7f00;
+  color: red;
+}
+.mg_20{
+  margin-left: 20px;
+}
+.selectList{
+  padding: 0.55em 1em 0.9em 0.75em;
+}
+.mr_20{
+  margin-right: 20px;
+}
+.controllArea a{
+  text-decoration: none;
+}
+
+.searchArea .button {
+	text-decoration: none;
+}
+
+input[type=date] {
+	text-align: center;
+	padding: 0.5em 0 0.58em 0.1em;	
+}
+
+#datepicker, #datepicker2 {
+	text-align: center;	
+	padding: 0.5em 0 0.58em 0.1em;	
+}
+
+.searchArea {
+	border: 1px solid #dee0e3;
+	border-radius: 10px;
+	height: 120px;
+	padding: 15px;
+}
+
+.searchArea .seach {
+	position: relative;
+	left: 80px;
+}
+.boxing {
+	margin-top: 20px;
+	position: relative;
+}
+.sal-calculator {
+	display: inline-block;
+	left: 79.8%;
+	bottom: 38px;			
+	position: relative;	
+}
+@media screen and (max-width: 1580px) {
+	.sal-calculator {
+		display: inline-block;
+		left: 79.8%;
+		bottom: 38px;			
+		position: relative;
+		top: 30px;
+	} 
+}
+
+.k-widget.k-tooltip-validation {
+    position: fixed;
+}
